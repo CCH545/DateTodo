@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+}
+
+body {
+    width: 800px;
+}
+
+button {
+    background-color: #336dab;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+    background-color: #99abbe;
+}
+
+.calendar-conponemt {
+    flex: 1;
+    background-color: #f1f1f1;
+    border-right: 1px solid #333333
+}
+
+.to-do-list-conponemt {
+    flex: 1;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-item{
+    border-bottom: solid 1px #444444;
+    width: 100%;
+    height: 32px;
+    display: block;
+    float: left;
+}
+
+
+ul li {
+    list-style: none;
+}
+.day_header_conponemt{
+    width: 100%;
+    display: flex;
+    /* margin-top: 0!important; */
+    margin-bottom: 0!important;
+}
+.evrday_header{
+    flex:1;    
+    float:left;
+    height: 32px;
+    line-height: 32px;
+    background-color:#a5a5a5;
+    margin-bottom: 0!important;
+}
+.evrday{
+    flex:1;    
+    float:left;
+}
+#day{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+#calendar{
+  width:400px;
+  margin:auto;
+}
+button{
+ width:25%;
+ height:40px;
+ float:left;
+}
+div{
+ /* margin-top:10px;
+ margin-bottom:5px; */
+ text-align:center;
+}
+#month{
+    width: 50%;
+    float: left;
+    font-size: 19px;
+    margin: 0!important;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+#ULE{
+    height: 36px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    flex: 75;
+}
+.inputBoxWarp{
+    /* width: 98%; */
+    background-color: #a5a5a5;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    flex: 14;
+}
+.selectClassification{
+    float: left;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    display: flex;
+}
+.selectClassification input{
+    flex: 1;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #dbdbdb;
+}
+.titleInput{
+    float: left;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.titleInput input{    
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #dbdbdb;
+    float: left;
+}
+.contentInput{
+    float: left;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    display: flex;
+}
+
+#inputBox{
+    padding: 0 4px;
+    margin: 6px 0;
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+    color: #444444;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #dbdbdb;
+    float: left;
+    flex: 9;
+}
+#submit{
+    flex: 1;
+    padding: 0 4px;
+    margin: 0;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: #444444;
+    float: left;
+    border: 1px solid #dbdbdb;
+}
+.liElementCheckBox{
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+    float: left;
+}
+.spanElement{
+    float: left;
+}
